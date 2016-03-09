@@ -1,6 +1,12 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 """
 Simple tqdm examples and profiling
 """
+
+import sys, os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
 from time import sleep
 from timeit import timeit
